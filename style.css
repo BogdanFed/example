@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* width: 1440px;
+    height: 67px;
+    gap: 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+width: 1440px;
+height: 540px;
+
+}
+
+#header{
+    width: 1440px;
+    height: 67px;
+    
+}
+
+.navigation{
+    
+    width: 940px;
+    height: 67px;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.navigation b{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+}
+
+.firstCanvas{
+    background-color: bisque;
+    width: 1440px;
+    height: 640px;
+}
+
+.firstCanvas__content{
+    width: 940px;
+    height: 200px;
+    left: 255px;
+    top: 250px;
+    position: relative;
+
+    font-size: 47px;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.first_btn{
+    background: none;
+    border: 1px solid #fff;
+    padding: 17px;
+}
+
+.first_btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.second_canvas{
+    width: 1440px;
+    height: 488px;
+    background-color: #EDEDED;
+    
+}
+
+.second_canvas_container{
+    width: 960px;
+    height: 328px;
+    padding: 80px 240px;
+
+}
